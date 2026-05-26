@@ -7,7 +7,7 @@ import java.time.LocalDate;
 @Entity
 @Table(name = "books")
 @Data
-public class Book {
+public class ResourceNotFoundException {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
